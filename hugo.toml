@@ -1,0 +1,27 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'GearVault Deals'
+theme = 'PaperMod'
+
+[params]
+  description = "Honest, field-tested fishing gear reviews for Northeast bass anglers — Quabbin, Wachusett, and beyond."
+  defaultTheme = "light"
+  disableThemeToggle = true
+  ShowShareButtons = false
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = false
+  disableHLJS = true
+  comments = false
+  disableScrollToTop = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[taxonomies]
+  tag = "tags"

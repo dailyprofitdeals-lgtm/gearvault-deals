@@ -1,0 +1,40 @@
+{{ define "main" }}
+<article class="gv-article">
+
+  <!-- EDITORIAL ARTICLE HEADER — title rendered once, no duplication -->
+  <header class="gv-article-head">
+    <a href="/reviews/" class="gv-article-back">← All Guides</a>
+    {{- if .Params.label }}
+    <span class="gv-article-cat">{{ .Params.label }}</span>
+    {{- else }}
+    <span class="gv-article-cat">Buying Guide</span>
+    {{- end }}
+    <h1>{{ .Title }}</h1>
+    {{- with .Params.description }}
+    <p class="gv-article-standfirst">{{ . }}</p>
+    {{- end }}
+    <div class="gv-article-meta">
+      <span>{{ .Date.Format "January 2, 2006" }}</span>
+      {{ with .ReadingTime }}<span class="dot">·</span><span>{{ . }} min read</span>{{ end }}
+      <span class="dot">·</span><span>Field-tested</span>
+    </div>
+  </header>
+
+  <!-- BODY -->
+  <div class="gv-article-body">
+    {{ .Content }}
+  </div>
+
+  <!-- AFFILIATE DISCLOSURE — auto-injected on every article -->
+  <aside class="gv-disclosure">
+    <span class="gv-disclosure-label">Affiliate Disclosure</span>
+    <p>This post contains affiliate links. If you make a purchase through these links, I may earn a small commission at no extra cost to you. All recommendations are based on real testing and honest opinions.</p>
+  </aside>
+
+  <!-- NEXT/PREV -->
+  {{- if .Site.Params.ShowPostNavLinks }}
+  {{- partial "post_nav_links.html" . }}
+  {{- end }}
+
+</article>
+{{ end }}
