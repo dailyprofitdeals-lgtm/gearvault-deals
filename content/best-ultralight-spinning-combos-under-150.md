@@ -14,7 +14,7 @@ After testing multiple combos over several seasons, here are the setups that off
 
 **Best Overall:** Pflueger President XT 30 paired with a 7'0" Medium-Light fast-action rod ($110–130 built)
 
-This is my personal go-to. Excellent sensitivity for detecting soft Ned rig bites, enough backbone to handle 3–4 lb bass, and a drag that won't let you down. [Check current price on Amazon](https://www.amazon.com/s?k=Pflueger+President+XT+spinning+combo&tag=gearvault085-20).
+This is my personal go-to. Excellent sensitivity for detecting soft Ned rig bites, enough backbone to handle 3–4 lb bass, and a drag that won't let you down. [Check current price on Amazon](https://www.amazon.com/dp/B0D153QY1L?tag=gearvault085-20).
 
 ## Top Ultralight Spinning Combos Under $150
 
@@ -30,7 +30,7 @@ This is my personal go-to. Excellent sensitivity for detecting soft Ned rig bite
 This is what's on my kayak right now for Quabbin smallmouth:
 
 **Rod:** 7'0" Medium-Light spinning, fast action
-**Reel:** [Pflueger President XT 30](https://www.amazon.com/s?k=Pflueger+President+XT+30+spinning+reel&tag=gearvault085-20)
+**Reel:** [Pflueger President XT 30](https://www.amazon.com/dp/B0CJZF521H?tag=gearvault085-20)
 **Line:** 8 lb braid + 6 lb fluorocarbon leader (6 ft)
 **Primary baits:** Z-Man Ned rigs, hair jigs, small swimbaits
 
@@ -65,6 +65,6 @@ If you regularly target big largemouth in heavy vegetation or wood cover, you'll
 
 ## Final Recommendation
 
-For most Northeast bass anglers, I recommend either building your own combo (President XT reel + quality UL rod) or going with a Pflueger or Shimano pre-built combo in the $100–130 range. The [Pflueger President XT combo](https://www.amazon.com/s?k=Pflueger+President+XT+spinning+combo&tag=gearvault085-20) is the best option right now for most people.
+For most Northeast bass anglers, I recommend either building your own combo (President XT reel + quality UL rod) or going with a Pflueger or Shimano pre-built combo in the $100–130 range. The [Pflueger President XT combo](https://www.amazon.com/dp/B0D153QY1L?tag=gearvault085-20) is the best option right now for most people.
 
 The [Ugly Stik GX2 combo](https://www.amazon.com/s?k=Ugly+Stik+GX2+spinning+combo&tag=gearvault085-20) is a solid choice if you're newer to fishing or hard on gear — it's nearly indestructible. Just know you're giving up some sensitivity compared to the President XT builds.

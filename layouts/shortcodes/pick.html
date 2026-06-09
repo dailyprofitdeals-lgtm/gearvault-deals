@@ -1,0 +1,31 @@
+{{- /*
+  Inline product pick card for use inside articles.
+  Pulls from data/picks.toml by id so copy/links stay in ONE place.
+
+  Usage in any article markdown:
+    {{</* pick id="pflueger-president-xt-reel" */>}}
+
+  If the id isn't found, renders nothing (fails safe).
+*/ -}}
+{{- $id := .Get "id" -}}
+{{- $found := false -}}
+{{- range .Site.Data.picks.products -}}
+  {{- if eq .id $id -}}
+    {{- $found = true -}}
+<div class="gv-inline-pick">
+  <div class="gv-inline-pick-media">
+    {{ if .image }}<img src="{{ .image }}" alt="{{ .name }}" loading="lazy">{{ else }}<div class="gv-pick-media-ph" aria-hidden="true"><span class="gv-pick-media-ph-icon">📷</span><span class="gv-pick-media-ph-text">Add photo</span></div>{{ end }}
+  </div>
+  <div class="gv-inline-pick-body">
+    {{ if eq .tier "field-tested" }}<span class="gv-badge gv-badge-tested gv-inline-pick-badge">✓ Field-Tested</span>{{ else }}<span class="gv-badge gv-badge-rec gv-inline-pick-badge">Angler-Recommended</span>{{ end }}
+    <h4 class="gv-inline-pick-name">{{ .name }}</h4>
+    <p class="gv-inline-pick-why">{{ .why }}</p>
+    <div class="gv-inline-pick-foot">
+      <span class="gv-inline-pick-price">{{ .price }}</span>
+      <a href="{{ .buyUrl }}" class="gv-inline-pick-btn" data-fulfillment="{{ .fulfillment }}" target="_blank" rel="noopener sponsored nofollow">{{ .buyLabel }} →</a>
+    </div>
+  </div>
+</div>
+  {{- end -}}
+{{- end -}}
+{{- if not $found -}}<!-- pick id "{{ $id }}" not found in data/picks.toml -->{{- end -}}

@@ -1,0 +1,160 @@
+###############################################################################
+# Gear Vault — Field-Tested Picks product data
+#
+# This is the SINGLE SOURCE OF TRUTH for the /field-tested-picks/ page.
+# Edit products here; the page rebuilds automatically.
+#
+# ── HYBRID / DROPSHIPPING NOTE ───────────────────────────────────────────────
+# Each product has a `buyUrl` (currently an Amazon affiliate link) and a
+# `buyLabel` ("Buy on Amazon"). To switch a product to dropshipping later,
+# change ONLY those two fields for that product — e.g.:
+#     buyUrl   = "/checkout/pflueger-president-xt"
+#     buyLabel = "Add to Cart"
+# Nothing else in the template needs to change. The `fulfillment` field
+# ("amazon" | "dropship") is provided so you can later branch logic/styling
+# if you want (e.g. show a cart icon vs an external-link icon).
+#
+# ── BADGE RULES (do not violate — this protects the brand) ───────────────────
+#   tier = "field-tested"      → personally fished on Quabbin/Wachusett/local
+#   tier = "angler-recommended"→ strong pick, NOT personally field-tested
+###############################################################################
+
+[[products]]
+  id          = "pflueger-president-xt-reel"
+  name        = "Pflueger President XT Spinning Reel"
+  category    = "Rods & Reels"
+  tier        = "field-tested"
+  price       = "$70–85"
+  size        = "Size 30 or 35"
+  why         = "My most-used reel on Quabbin smallmouth. The drag is buttery — it won't pop your leader when a 3-pounder makes a hard run boatside."
+  tested      = "Carbon-fiber drag stays smooth season after season. Light enough for all-day finesse, tough enough for spinnerbaits."
+  fulfillment = "amazon"
+  buyUrl      = "https://www.amazon.com/dp/B0CJZF521H?tag=gearvault085-20"
+  buyLabel    = "Buy on Amazon"
+  image       = "/images/picks/pflueger-president-xt-reel.jpg"   # /images/picks/pflueger-president-xt.jpg
+
+[[products]]
+  id          = "football-jig-setup"
+  name        = "Football Jig Setup (3/8–1/2 oz + Craw Trailer)"
+  category    = "Lures"
+  tier        = "field-tested"
+  price       = "$4–6 / jig"
+  size        = "3/8–1/2 oz"
+  why         = "The bait I reach for first on Quabbin's rocky humps and points. Nothing else tells you what the bottom is doing like a football jig."
+  tested      = "1/2 oz holds bottom contact in wind. Dead-stick it 3–5 seconds after it hits rock — that's when the big ones load up."
+  fulfillment = "amazon"
+  buyUrl      = "https://www.amazon.com/dp/B09H51HJJL?tag=gearvault085-20"
+  buyLabel    = "Buy on Amazon"
+  image       = "/images/picks/football-jig-setup.jpg"
+
+[[products]]
+  id          = "ned-rig-setup"
+  name        = "Ned Rig Setup (Z-Man Style)"
+  category    = "Lures"
+  tier        = "field-tested"
+  price       = "$5–10"
+  size        = "1/16–1/8 oz head"
+  why         = "My confidence bait when Quabbin's clear water turns the fish cautious and everything else stops working. It just gets bit."
+  tested      = "ElaZtech floats the hook up and lasts dozens of fish per bait. Green pumpkin and California craw are the local killers."
+  fulfillment = "amazon"
+  buyUrl      = "https://www.amazon.com/dp/B09M3F2PQZ?tag=gearvault085-20"
+  buyLabel    = "Buy on Amazon"
+  image       = "/images/picks/ned-rig-setup.jpg"
+
+[[products]]
+  id          = "ultralight-combo"
+  name        = "Budget Ultralight Combo (President XT + Rod)"
+  category    = "Combos"
+  tier        = "field-tested"
+  price       = "Under $150"
+  size        = "7'0\" Light / Fast"
+  why         = "The exact finesse combo on my kayak right now. Real sensitivity and a smooth drag for under $150 — no need to spend triple."
+  tested      = "Detects soft Ned-rig bites in 20+ ft of water, yet has the backbone to turn a quality smallmouth off deep structure."
+  fulfillment = "amazon"
+  buyUrl      = "https://www.amazon.com/dp/B0D153QY1L?tag=gearvault085-20"
+  buyLabel    = "Buy on Amazon"
+  image       = "/images/picks/ultralight-combo.jpg"
+
+[[products]]
+  id          = "night-chatterbait"
+  name        = "Night Fishing Chatterbait Setup"
+  category    = "Lures"
+  tier        = "field-tested"
+  price       = "$5–7"
+  size        = "3/8–1/2 oz, black"
+  why         = "My go-to after dark on Quabbin points. The blade's thump calls fish in when they can't see — black is the only color that matters at night."
+  tested      = "Black/black with a matching trailer. Slow, steady retrieve that bumps the rock; the big girls are far less cautious after dark."
+  fulfillment = "amazon"
+  buyUrl      = "https://www.amazon.com/dp/B0FQ5TQ9W2?tag=gearvault085-20"
+  buyLabel    = "Buy on Amazon"
+  image       = "/images/picks/night-chatterbait.jpg"
+
+[[products]]
+  id          = "garmin-striker-vivid-4cv"
+  name        = "Garmin Striker Vivid 4cv Fish Finder"
+  category    = "Electronics"
+  tier        = "angler-recommended"
+  price       = "$180–220"
+  size        = "4\" display"
+  why         = "The unit I'd put on a kayak today. CHIRP sonar plus a bright screen and GPS mapping make it the value leader under $250."
+  tested      = "Widely trusted by Northeast kayak anglers. ClearVu draws a near-photographic bottom; Quickdraw builds your own depth maps as you fish."
+  fulfillment = "amazon"
+  buyUrl      = "https://www.amazon.com/dp/B08LF13X8B?tag=gearvault085-20"
+  buyLabel    = "Buy on Amazon"
+  image       = "/images/picks/garmin-striker-vivid-4cv.jpg"
+
+[[products]]
+  id          = "deeper-chirp-2"
+  name        = "Deeper Chirp+ 2 Portable Fish Finder"
+  category    = "Electronics"
+  tier        = "angler-recommended"
+  price       = "$220–260"
+  size        = "Castable"
+  why         = "The answer for shore anglers who want electronics. Tie it on, cast it out, read the bottom on your phone — no boat, no mounting."
+  tested      = "A strong reputation for bank and pond-hopping use. CHIRP sonar with GPS mapping in a unit the size of a golf ball."
+  fulfillment = "amazon"
+  buyUrl      = "https://www.amazon.com/dp/B0GHPMY44X?tag=gearvault085-20"
+  buyLabel    = "Buy on Amazon"
+  image       = "/images/picks/deeper-chirp-2.jpg"
+
+[[products]]
+  id          = "yamamoto-hula-grub"
+  name        = "Yamamoto Double Tail Hula Grub"
+  category    = "Lures"
+  tier        = "angler-recommended"
+  price       = "$6–8 / pack"
+  size        = "4\""
+  why         = "A proven football-jig trailer for rocky smallmouth water. The twin tails add a crawling, defensive action big bass key on."
+  tested      = "A long-standing favorite trailer in the bass world. Pair it with the football jig above in green pumpkin or smoke."
+  fulfillment = "amazon"
+  buyUrl      = "https://www.amazon.com/dp/B003ZZBVTQ?tag=gearvault085-20"
+  buyLabel    = "Buy on Amazon"
+  image       = "/images/picks/yamamoto-hula-grub.jpg"
+
+[[products]]
+  id          = "favorite-pro-series-rod"
+  name        = "Favorite Fishing Pro Series Rod"
+  category    = "Rods & Reels"
+  tier        = "angler-recommended"
+  price       = "~$90"
+  size        = "7'0\" ML"
+  why         = "A well-reviewed budget blank that competes with rods at $130+. A natural rod partner for the President XT reel."
+  tested      = "Strong reputation for sensitivity at the price. Graphite blank with quality guides — a smart finesse build on a budget."
+  fulfillment = "amazon"
+  buyUrl      = "https://www.amazon.com/dp/B072R5K61P?tag=gearvault085-20"
+  buyLabel    = "Buy on Amazon"
+  image       = "/images/picks/favorite-pro-series-rod.jpg"
+
+[[products]]
+  id          = "jackhammer-chatterbait"
+  name        = "Evergreen Jackhammer Chatterbait"
+  category    = "Lures"
+  tier        = "angler-recommended"
+  price       = "$15–17"
+  size        = "3/8–1/2 oz"
+  why         = "The premium bladed jig many pros won't fish without. Hunts hard at any speed and starts vibrating the instant it hits the water."
+  tested      = "An elite reputation in stained water and wind. Pricey, but the action and hook quality are a genuine step up."
+  fulfillment = "amazon"
+  buyUrl      = "https://www.amazon.com/dp/B07P8BH54X?tag=gearvault085-20"
+  buyLabel    = "Buy on Amazon"
+  image       = "/images/picks/jackhammer-chatterbait.jpg"

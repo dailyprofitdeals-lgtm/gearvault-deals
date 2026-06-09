@@ -14,7 +14,7 @@ Here's the complete setup I've refined after many seasons of smallmouth fishing 
 
 **Best Ned Rig Setup:** 7'0" Light Extra-Fast spinning rod + Pflueger President XT 30 + 8 lb braid + 6 lb fluorocarbon leader + Z-Man TRD on a 1/16 or 1/8 oz mushroom head.
 
-This setup gives you maximum sensitivity to detect soft bottom bites while maintaining enough backbone to land quality smallmouth. The [Pflueger President XT](https://www.amazon.com/s?k=Pflueger+President+XT+spinning+reel&tag=gearvault085-20) is the best reel for the job right now.
+This setup gives you maximum sensitivity to detect soft bottom bites while maintaining enough backbone to land quality smallmouth. The [Pflueger President XT](https://www.amazon.com/dp/B0CJZF521H?tag=gearvault085-20) is the best reel for the job right now.
 
 ## Complete Ned Rig Setup Breakdown
 
@@ -30,7 +30,7 @@ This setup gives you maximum sensitivity to detect soft bottom bites while maint
 ## My Exact Go-To Ned Rig Setup
 
 - **Rod:** 7'0" Light spinning, extra-fast action ([a Favorite Fishing or similar works great](https://www.amazon.com/s?k=Favorite+Fishing+spinning+rod+light&tag=gearvault085-20))
-- **Reel:** [Pflueger President XT 30](https://www.amazon.com/s?k=Pflueger+President+XT+30+spinning+reel&tag=gearvault085-20)
+- **Reel:** [Pflueger President XT 30](https://www.amazon.com/dp/B0CJZF521H?tag=gearvault085-20)
 - **Line:** 8 lb braid + 5–6 ft of 6 lb fluorocarbon leader
 - **Jig Head:** [1/16 oz mushroom head](https://www.amazon.com/s?k=Z-Man+mushroom+jig+head+ned+rig&tag=gearvault085-20) in green pumpkin or black
 - **Plastic:** [Z-Man TRD](https://www.amazon.com/s?k=Z-Man+TRD+ned+rig&tag=gearvault085-20) in Green Pumpkin, California Craw, or The Deal

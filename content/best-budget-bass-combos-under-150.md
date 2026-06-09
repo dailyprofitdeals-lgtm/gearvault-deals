@@ -14,7 +14,7 @@ Here are the ones I've tested on Quabbin, Wachusett, and similar Northeast water
 
 **Best Overall Under $150:** Pflueger President XT Combo ($110–130)
 
-If you want one combo that handles most bass techniques reliably, this is it. Smooth drag, good sensitivity, and a reel that lasts. I've used it for everything from Ned rigs to spinnerbaits. [Check current price on Amazon](https://www.amazon.com/s?k=Pflueger+President+XT+spinning+combo&tag=gearvault085-20).
+If you want one combo that handles most bass techniques reliably, this is it. Smooth drag, good sensitivity, and a reel that lasts. I've used it for everything from Ned rigs to spinnerbaits. [Check current price on Amazon](https://www.amazon.com/dp/B0D153QY1L?tag=gearvault085-20).
 
 ## Top Bass Combos Under $150
 
@@ -34,7 +34,7 @@ This combo consistently impresses me for the price. The President XT reel has an
 
 **Best for:** Ned rigs, Wacky rigs, small swimbaits, spinnerbaits, chatterbaits
 
-**What I'd pair it with:** 8 lb braid + 6 lb fluorocarbon leader for finesse work. If it's in stock, this is the [best option right now](https://www.amazon.com/s?k=Pflueger+President+XT+spinning+combo&tag=gearvault085-20) for most anglers reading this.
+**What I'd pair it with:** 8 lb braid + 6 lb fluorocarbon leader for finesse work. If it's in stock, this is the [best option right now](https://www.amazon.com/dp/B0D153QY1L?tag=gearvault085-20) for most anglers reading this.
 
 ### 2. Shimano Sienna + Aftermarket Rod
 
@@ -70,4 +70,4 @@ When shopping for combos under $150, focus on these factors:
 
 At $100–150, you can get a combo that will last many seasons and catch plenty of fish. The key is not going too cheap — the $60–80 combos often have inferior drags and poor sensitivity.
 
-If you can stretch to $120–140, the [Pflueger President XT combo](https://www.amazon.com/s?k=Pflueger+President+XT+spinning+combo&tag=gearvault085-20) is excellent. If you're on a tighter budget, the [Ugly Stik GX2](https://www.amazon.com/s?k=Ugly+Stik+GX2+spinning+combo&tag=gearvault085-20) is nearly indestructible.
+If you can stretch to $120–140, the [Pflueger President XT combo](https://www.amazon.com/dp/B0D153QY1L?tag=gearvault085-20) is excellent. If you're on a tighter budget, the [Ugly Stik GX2](https://www.amazon.com/s?k=Ugly+Stik+GX2+spinning+combo&tag=gearvault085-20) is nearly indestructible.

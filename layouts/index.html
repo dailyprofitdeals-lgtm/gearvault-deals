@@ -101,4 +101,53 @@
   </div>
 </section>
 
+<!-- ============================================
+     FIELD-TESTED PICKS — homepage teaser (top 6)
+============================================ -->
+<section class="gv-home-picks">
+  <div class="gv-home-picks-inner">
+    <div class="gv-home-picks-head">
+      <div>
+        <p class="gv-section-eyebrow">Our Top Recommendations</p>
+        <h2 class="gv-section-title">Field-Tested Picks</h2>
+      </div>
+      <a href="/field-tested-picks/" class="gv-home-picks-head-link">See all 10 picks →</a>
+    </div>
+
+    <div class="gv-home-picks-grid">
+      {{ range first 6 .Site.Data.picks.products }}
+      <a href="/field-tested-picks/" class="gv-home-pick">
+        <div class="gv-home-pick-media">
+          {{ if .image }}
+            <img src="{{ .image }}" alt="{{ .name }}" loading="lazy">
+          {{ else }}
+            <div class="gv-pick-media-ph" aria-hidden="true">
+              <span class="gv-pick-media-ph-icon">📷</span>
+              <span class="gv-pick-media-ph-text">Add product photo</span>
+            </div>
+          {{ end }}
+          {{ if eq .tier "field-tested" }}
+            <span class="gv-badge gv-badge-tested gv-home-pick-badge">✓ Field-Tested</span>
+          {{ else }}
+            <span class="gv-badge gv-badge-rec gv-home-pick-badge">Recommended</span>
+          {{ end }}
+        </div>
+        <div class="gv-home-pick-body">
+          <span class="gv-home-pick-cat">{{ .category }}</span>
+          <h3 class="gv-home-pick-name">{{ .name }}</h3>
+          <div class="gv-home-pick-foot">
+            <span class="gv-home-pick-price">{{ .price }}</span>
+            <span class="gv-home-pick-cta">View pick →</span>
+          </div>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+
+    <div class="gv-home-picks-btnrow">
+      <a href="/field-tested-picks/" class="gv-btn">Explore all Field-Tested Picks</a>
+    </div>
+  </div>
+</section>
+
 {{ end }}

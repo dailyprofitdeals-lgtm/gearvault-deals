@@ -16,6 +16,8 @@ After multiple trips this spring and early summer, including several night sessi
 
 This is my go-to on Quabbin rocky structure. Excellent bottom contact, quality hook, and the skirt action is good enough that you don't always need an elaborate trailer. [Check current price on Amazon](https://www.amazon.com/s?k=Strike+King+Tour+Grade+football+jig&tag=gearvault085-20).
 
+{{< pick id="football-jig-setup" >}}
+
 ## Top Football Jig Recommendations
 
 | Rank | Jig | Weight | Best Colors | Why It Works at Quabbin |
@@ -59,6 +61,8 @@ These observations are from actual sessions this season:
 **[Reaction Innovations Sweet Beaver](https://www.amazon.com/s?k=Reaction+Innovations+Sweet+Beaver&tag=gearvault085-20)** — Bigger profile for larger fish or when you want the jig to fall slower.
 
 **Match the trailer size to the jig.** A big 1/2 oz jig with a tiny trailer looks unnatural and the jig will fall too fast. Keep them proportional.
+
+{{< pick id="yamamoto-hula-grub" >}}
 
 ## Common Mistakes I See at Quabbin
 

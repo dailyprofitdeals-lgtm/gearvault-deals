@@ -74,4 +74,4 @@ That said, a quality $80–100 ultralight rod from a [trusted brand like Favorit
 
 Buy the best ultralight rod you can comfortably afford. A quality rod makes light line and small baits significantly more enjoyable and more effective.
 
-Start with a 7'0" Light Fast spinning rod in the $75–120 range from [Favorite Fishing](https://www.amazon.com/s?k=Favorite+Fishing+spinning+rod+light+7+foot&tag=gearvault085-20), Lew's, or Shimano. Pair it with a [Pflueger President XT reel](https://www.amazon.com/s?k=Pflueger+President+XT+spinning+reel&tag=gearvault085-20) and you'll have an excellent finesse setup that performs far above its price.
+Start with a 7'0" Light Fast spinning rod in the $75–120 range from [Favorite Fishing](https://www.amazon.com/s?k=Favorite+Fishing+spinning+rod+light+7+foot&tag=gearvault085-20), Lew's, or Shimano. Pair it with a [Pflueger President XT reel](https://www.amazon.com/dp/B0CJZF521H?tag=gearvault085-20) and you'll have an excellent finesse setup that performs far above its price.

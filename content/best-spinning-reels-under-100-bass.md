@@ -14,7 +14,7 @@ The good news: you don't need to spend $150+ to get something excellent. Here ar
 
 **Best Overall Under $100:** Pflueger President XT ($70–85)
 
-This is the reel I recommend to most anglers at this price point. Smooth drag, solid construction, and versatile enough for finesse techniques all the way up to medium-heavy bass fishing. [Check current price on Amazon](https://www.amazon.com/s?k=Pflueger+President+XT+spinning+reel&tag=gearvault085-20).
+This is the reel I recommend to most anglers at this price point. Smooth drag, solid construction, and versatile enough for finesse techniques all the way up to medium-heavy bass fishing. [Check current price on Amazon](https://www.amazon.com/dp/B0CJZF521H?tag=gearvault085-20).
 
 ## Top Spinning Reels Under $100
 
@@ -32,7 +32,7 @@ This is the reel I recommend to most anglers at this price point. Smooth drag, s
 
 The President XT has earned its reputation as the best budget spinning reel on the market. The Carbon Matrix drag system is genuinely smooth — comparable to reels that cost significantly more. The full aluminum body feels solid without being heavy.
 
-I've used this reel for Ned rigs, finesse jigs, spinnerbaits, and everything in between. It handles all of it without complaint. If it's in stock, it's the [best option right now](https://www.amazon.com/s?k=Pflueger+President+XT+spinning+reel&tag=gearvault085-20).
+I've used this reel for Ned rigs, finesse jigs, spinnerbaits, and everything in between. It handles all of it without complaint. If it's in stock, it's the [best option right now](https://www.amazon.com/dp/B0CJZF521H?tag=gearvault085-20).
 
 **Why it wins:** Drag quality at this price is unmatched. It just works.
 
@@ -83,6 +83,6 @@ When buying a reel under $100, focus on:
 
 ## Final Thoughts
 
-At under $100, the [Pflueger President XT](https://www.amazon.com/s?k=Pflueger+President+XT+spinning+reel&tag=gearvault085-20) is the easy recommendation for most bass anglers. Its drag system alone justifies the price. If budget is tight, the [Shimano Sienna](https://www.amazon.com/s?k=Shimano+Sienna+spinning+reel&tag=gearvault085-20) is a solid step down. If durability is your priority, go [Penn Battle II](https://www.amazon.com/s?k=Penn+Battle+II+spinning+reel&tag=gearvault085-20).
+At under $100, the [Pflueger President XT](https://www.amazon.com/dp/B0CJZF521H?tag=gearvault085-20) is the easy recommendation for most bass anglers. Its drag system alone justifies the price. If budget is tight, the [Shimano Sienna](https://www.amazon.com/s?k=Shimano+Sienna+spinning+reel&tag=gearvault085-20) is a solid step down. If durability is your priority, go [Penn Battle II](https://www.amazon.com/s?k=Penn+Battle+II+spinning+reel&tag=gearvault085-20).
 
 All five reels on this list will serve you well for multiple seasons if you rinse them after use and keep the drag backed off when stored.

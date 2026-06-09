@@ -14,7 +14,7 @@ Here are the rods I actually use and recommend after testing on local Northeast 
 
 **Best Overall Under $100:** Favorite Fishing Pro Series 7'0" Medium-Light Spinning (~$90)
 
-Excellent sensitivity, great action, and a backbone that surprises you when a bigger fish shows up. I've caught everything from 12" smallmouth to 5+ lb largemouth on this rod. [Check current price on Amazon](https://www.amazon.com/s?k=Favorite+Fishing+Pro+Series+spinning+rod&tag=gearvault085-20).
+Excellent sensitivity, great action, and a backbone that surprises you when a bigger fish shows up. I've caught everything from 12" smallmouth to 5+ lb largemouth on this rod. [Check current price on Amazon](https://www.amazon.com/dp/B072R5K61P?tag=gearvault085-20).
 
 ## Top Bass Rods Under $100
 
@@ -29,7 +29,7 @@ Excellent sensitivity, great action, and a backbone that surprises you when a bi
 
 ### Favorite Fishing Pro Series — Best Overall
 
-The Pro Series is one of the best kept secrets in budget rod fishing. The blank is sensitive enough for Ned rigs, the action is fast enough for good hooksets, and the guides are quality. At around $90, it competes with rods in the $130–150 range. [See the latest price on Amazon](https://www.amazon.com/s?k=Favorite+Fishing+Pro+Series+spinning+rod&tag=gearvault085-20).
+The Pro Series is one of the best kept secrets in budget rod fishing. The blank is sensitive enough for Ned rigs, the action is fast enough for good hooksets, and the guides are quality. At around $90, it competes with rods in the $130–150 range. [See the latest price on Amazon](https://www.amazon.com/dp/B072R5K61P?tag=gearvault085-20).
 
 **Best applications:** Ned rigs, Wacky rigs, small swimbaits, drop shots, light jigs
 
@@ -60,6 +60,6 @@ Length and power are technique-specific, but you can cover 80% of bass fishing w
 
 ## Final Thoughts
 
-A quality rod under $100 will serve you well for many years. The [Favorite Fishing Pro Series](https://www.amazon.com/s?k=Favorite+Fishing+Pro+Series+spinning+rod&tag=gearvault085-20) is my top pick at this price. The [Lew's Mach 1](https://www.amazon.com/s?k=Lews+Mach+1+spinning+rod&tag=gearvault085-20) is a close second.
+A quality rod under $100 will serve you well for many years. The [Favorite Fishing Pro Series](https://www.amazon.com/dp/B072R5K61P?tag=gearvault085-20) is my top pick at this price. The [Lew's Mach 1](https://www.amazon.com/s?k=Lews+Mach+1+spinning+rod&tag=gearvault085-20) is a close second.
 
 Don't feel pressured to spend $150–200+ unless you're targeting a very specific technique or want premium components like Fuji tangle-free guides or high-modulus blanks. The rods listed here will get the job done.

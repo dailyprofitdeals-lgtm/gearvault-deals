@@ -14,11 +14,11 @@ The good news: you don't need to spend $800+ to get something genuinely useful. 
 
 **Best for Kayak:** Garmin Striker Vivid 4cv (~$180–220)
 
-Great screen, excellent CHIRP sonar, GPS with mapping, and easy mounting on most kayaks. This is the unit I'd buy today if I were outfitting a kayak from scratch. [Check current price on Amazon](https://www.amazon.com/s?k=Garmin+Striker+Vivid+4cv+fish+finder&tag=gearvault085-20).
+Great screen, excellent CHIRP sonar, GPS with mapping, and easy mounting on most kayaks. This is the unit I'd buy today if I were outfitting a kayak from scratch. [Check current price on Amazon](https://www.amazon.com/dp/B08LF13X8B?tag=gearvault085-20).
 
 **Best for Shore:** Deeper Chirp+ 2 (Castable) (~$220–260)
 
-Cast it out from the bank, view readings on your phone. No mounting hardware needed. Changes how you approach shore fishing. [See the latest price on Amazon](https://www.amazon.com/s?k=Deeper+Chirp%2B+2+castable+fish+finder&tag=gearvault085-20).
+Cast it out from the bank, view readings on your phone. No mounting hardware needed. Changes how you approach shore fishing. [See the latest price on Amazon](https://www.amazon.com/dp/B0GHPMY44X?tag=gearvault085-20).
 
 ## Top Budget Fish Finders Under $300
 
@@ -41,7 +41,7 @@ The Striker Vivid 4cv packs serious features into a package that works perfectly
 - Built-in GPS for marking productive spots
 - Easy RAM mount installation on most kayak rails
 
-**One limitation:** No pre-loaded maps. You build your own as you fish. This is fine for kayakers who fish the same water repeatedly, but frustrating if you jump around a lot. If it fits your fishing, it's the [best option right now](https://www.amazon.com/s?k=Garmin+Striker+Vivid+4cv+fish+finder&tag=gearvault085-20) for most kayak anglers.
+**One limitation:** No pre-loaded maps. You build your own as you fish. This is fine for kayakers who fish the same water repeatedly, but frustrating if you jump around a lot. If it fits your fishing, it's the [best option right now](https://www.amazon.com/dp/B08LF13X8B?tag=gearvault085-20) for most kayak anglers.
 
 ### Lowrance Hook Reveal 5 — Best Display Size for the Price
 
@@ -61,7 +61,7 @@ The Helix 5 is a dependable mid-size unit with a sharp display and solid CHIRP s
 
 The Deeper is a castable sonar unit about the size of a golf ball. You tie it to your line, cast it out, and view the real-time readings on your phone via their free app. No transducer mounting, no wiring.
 
-I've used this at Quabbin from the bank and it's genuinely impressive for understanding bottom depth and composition. It won't replace a mounted unit for all-day use, but for shore anglers who want electronics, it's the obvious solution. [Check the latest price on Amazon](https://www.amazon.com/s?k=Deeper+Chirp%2B+2+castable+fish+finder&tag=gearvault085-20).
+I've used this at Quabbin from the bank and it's genuinely impressive for understanding bottom depth and composition. It won't replace a mounted unit for all-day use, but for shore anglers who want electronics, it's the obvious solution. [Check the latest price on Amazon](https://www.amazon.com/dp/B0GHPMY44X?tag=gearvault085-20).
 
 **Best for:** Shore anglers, occasional users, travel fishing, pond hopping.
 
@@ -83,6 +83,6 @@ If you consistently fish the same water and know the productive spots already, a
 
 ## Final Thoughts
 
-For most kayak bass anglers in the $180–260 price range, the [Garmin Striker Vivid 4cv](https://www.amazon.com/s?k=Garmin+Striker+Vivid+4cv+fish+finder&tag=gearvault085-20) is the clear choice. It's the unit I'd buy today.
+For most kayak bass anglers in the $180–260 price range, the [Garmin Striker Vivid 4cv](https://www.amazon.com/dp/B08LF13X8B?tag=gearvault085-20) is the clear choice. It's the unit I'd buy today.
 
-If you're primarily a shore angler, the [Deeper Chirp+ 2](https://www.amazon.com/s?k=Deeper+Chirp%2B+2+castable+fish+finder&tag=gearvault085-20) is the most practical option available — no mounting, no wiring, just cast and fish.
+If you're primarily a shore angler, the [Deeper Chirp+ 2](https://www.amazon.com/dp/B0GHPMY44X?tag=gearvault085-20) is the most practical option available — no mounting, no wiring, just cast and fish.

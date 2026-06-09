@@ -1,0 +1,204 @@
+{{ define "main" }}
+<div class="gv-picks">
+
+  <!-- ============ HERO ============ -->
+  <header class="gv-picks-hero">
+    <div class="gv-picks-hero-scrim"></div>
+    <div class="gv-picks-hero-inner">
+      <span class="gv-picks-kicker">Curated by local anglers</span>
+      <h1>Field-Tested Picks</h1>
+      <p class="gv-picks-lead">The gear that's earned its spot — proven on Quabbin, Wachusett, and the ponds of central Massachusetts. Honest picks, clearly labeled. No sponsorships, ever.</p>
+      <div class="gv-picks-trustrow">
+        <span class="gv-picks-trust"><strong>10</strong> proven picks</span>
+        <span class="gv-picks-trust"><strong>5</strong> personally field-tested</span>
+        <span class="gv-picks-trust"><strong>0</strong> paid placements</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ BADGE LEGEND ============ -->
+  <div class="gv-picks-legend">
+    <div class="gv-picks-legend-inner">
+      <span class="gv-legend-item">
+        <span class="gv-badge gv-badge-tested">Field-Tested</span>
+        Personally fished on local water
+      </span>
+      <span class="gv-legend-item">
+        <span class="gv-badge gv-badge-rec">Angler-Recommended</span>
+        Strong pick, not personally tested by us
+      </span>
+    </div>
+  </div>
+
+  <!-- ============ CONTROLS: search + filter ============ -->
+  <div class="gv-picks-controls">
+    <div class="gv-picks-controls-inner">
+      <input type="search" id="gvPicksSearch" class="gv-picks-search"
+             placeholder="Search picks (e.g. reel, Ned rig, fish finder)…"
+             aria-label="Search products">
+      <div class="gv-picks-filters" role="group" aria-label="Filter by category">
+        <button class="gv-filter is-active" data-cat="all">All</button>
+        <button class="gv-filter" data-cat="Combos">Combos</button>
+        <button class="gv-filter" data-cat="Rods &amp; Reels">Rods &amp; Reels</button>
+        <button class="gv-filter" data-cat="Lures">Lures</button>
+        <button class="gv-filter" data-cat="Electronics">Electronics</button>
+      </div>
+      <button class="gv-picks-compare-toggle" id="gvCompareToggle" aria-pressed="false">Compare all ▸</button>
+    </div>
+  </div>
+
+  <!-- ============ CARD GRID ============ -->
+  <div class="gv-picks-grid" id="gvPicksGrid">
+    {{ range .Site.Data.picks.products }}
+    <article class="gv-pick-card"
+             data-category="{{ .category }}"
+             data-name="{{ lower .name }}"
+             data-tier="{{ .tier }}">
+
+      <div class="gv-pick-media">
+        {{ if .image }}
+          <img src="{{ .image }}" alt="{{ .name }}" loading="lazy">
+        {{ else }}
+          <div class="gv-pick-media-ph" aria-hidden="true">
+            <span class="gv-pick-media-ph-icon">📷</span>
+            <span class="gv-pick-media-ph-text">Add product photo</span>
+          </div>
+        {{ end }}
+        {{ if eq .tier "field-tested" }}
+          <span class="gv-badge gv-badge-tested gv-pick-badge">✓ Field-Tested</span>
+        {{ else }}
+          <span class="gv-badge gv-badge-rec gv-pick-badge">Angler-Recommended</span>
+        {{ end }}
+      </div>
+
+      <div class="gv-pick-body">
+        <span class="gv-pick-cat">{{ .category }}</span>
+        <h3 class="gv-pick-name">{{ .name }}</h3>
+
+        <p class="gv-pick-why"><strong>Why it made the list:</strong> {{ .why }}</p>
+
+        <p class="gv-pick-tested">{{ .tested }}</p>
+
+        <div class="gv-pick-meta">
+          {{ with .size }}<span class="gv-pick-spec">{{ . }}</span>{{ end }}
+          <span class="gv-pick-price">{{ .price }}</span>
+        </div>
+
+        <!-- HYBRID BUTTON: swap buyUrl + buyLabel in data/picks.toml to go dropship -->
+        <a href="{{ .buyUrl }}"
+           class="gv-pick-btn"
+           data-fulfillment="{{ .fulfillment }}"
+           target="_blank" rel="noopener sponsored nofollow">
+          {{ .buyLabel }}
+          <span class="gv-pick-btn-arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+
+  <!-- "no results" message (shown via JS) -->
+  <p class="gv-picks-empty" id="gvPicksEmpty" hidden>No picks match that search. Try another term or clear the filter.</p>
+
+  <!-- ============ COMPARISON TABLE (hidden by default) ============ -->
+  <section class="gv-picks-compare" id="gvCompareSection" hidden>
+    <h2 class="gv-compare-title">Compare all picks</h2>
+    <div class="gv-compare-scroll">
+      <table class="gv-compare-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Category</th>
+            <th>Status</th>
+            <th>Spec</th>
+            <th>Price</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range .Site.Data.picks.products }}
+          <tr>
+            <td data-label="Product"><strong>{{ .name }}</strong></td>
+            <td data-label="Category">{{ .category }}</td>
+            <td data-label="Status">
+              {{ if eq .tier "field-tested" }}
+                <span class="gv-badge gv-badge-tested gv-badge-sm">Field-Tested</span>
+              {{ else }}
+                <span class="gv-badge gv-badge-rec gv-badge-sm">Recommended</span>
+              {{ end }}
+            </td>
+            <td data-label="Spec">{{ with .size }}{{ . }}{{ else }}—{{ end }}</td>
+            <td data-label="Price">{{ .price }}</td>
+            <td data-label="">
+              <a href="{{ .buyUrl }}" class="gv-compare-btn" target="_blank" rel="noopener sponsored nofollow">{{ .buyLabel }}</a>
+            </td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============ "WHY THIS GEAR WINS" CALLOUT ============ -->
+  <aside class="gv-wins-callout">
+    <div class="gv-wins-inner">
+      <span class="gv-wins-eyebrow">The Gear Vault Standard</span>
+      <h2>Why this gear wins on local water</h2>
+      <p>Northeast bass — especially pressured smallmouth on clear reservoirs like Quabbin — punish gear that looks good on paper but falls apart on the water. Everything here is chosen for one thing: how it actually performs where we fish. The <strong>Field-Tested</strong> picks are gear we've personally run on local water. The <strong>Angler-Recommended</strong> picks are strong, well-proven options we trust but haven't personally tested on these lakes. We tell you which is which — because that honesty is the whole point.</p>
+    </div>
+  </aside>
+
+  <!-- ============ DISCLOSURE ============ -->
+  <aside class="gv-disclosure gv-picks-disclosure">
+    <span class="gv-disclosure-label">Affiliate Disclosure</span>
+    <p>This page contains affiliate links. If you make a purchase through these links, I may earn a small commission at no extra cost to you. All recommendations are based on real testing and honest opinions — no brand pays for placement.</p>
+  </aside>
+
+</div>
+
+<script>
+(function () {
+  var grid    = document.getElementById('gvPicksGrid');
+  var cards   = Array.prototype.slice.call(grid.querySelectorAll('.gv-pick-card'));
+  var search  = document.getElementById('gvPicksSearch');
+  var filters = document.querySelectorAll('.gv-filter');
+  var empty   = document.getElementById('gvPicksEmpty');
+  var cmpBtn  = document.getElementById('gvCompareToggle');
+  var cmpSec  = document.getElementById('gvCompareSection');
+  var activeCat = 'all';
+
+  function apply() {
+    var q = (search.value || '').trim().toLowerCase();
+    var shown = 0;
+    cards.forEach(function (card) {
+      var matchCat = activeCat === 'all' || card.getAttribute('data-category') === activeCat;
+      var matchTxt = !q || card.getAttribute('data-name').indexOf(q) !== -1
+                        || card.getAttribute('data-category').toLowerCase().indexOf(q) !== -1;
+      var show = matchCat && matchTxt;
+      card.style.display = show ? '' : 'none';
+      if (show) shown++;
+    });
+    empty.hidden = shown !== 0;
+  }
+
+  search.addEventListener('input', apply);
+
+  filters.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      filters.forEach(function (b) { b.classList.remove('is-active'); });
+      btn.classList.add('is-active');
+      activeCat = btn.getAttribute('data-cat');
+      apply();
+    });
+  });
+
+  cmpBtn.addEventListener('click', function () {
+    var open = cmpSec.hidden === false;
+    cmpSec.hidden = open;
+    cmpBtn.setAttribute('aria-pressed', String(!open));
+    cmpBtn.innerHTML = open ? 'Compare all ▸' : 'Hide comparison ▾';
+    if (!open) cmpSec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+})();
+</script>
+{{ end }}
