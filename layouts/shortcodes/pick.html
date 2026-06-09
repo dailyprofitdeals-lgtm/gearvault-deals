@@ -1,12 +1,4 @@
-{{- /*
-  Inline product pick card for use inside articles.
-  Pulls from data/picks.toml by id so copy/links stay in ONE place.
-
-  Usage in any article markdown:
-    {{</* pick id="pflueger-president-xt-reel" */>}}
-
-  If the id isn't found, renders nothing (fails safe).
-*/ -}}
+{{- /* Inline product pick card. Pulls from data/picks.toml by id so copy and links live in one place. Usage in markdown: pick shortcode with id="pflueger-president-xt-reel". Renders nothing if the id is not found. */ -}}
 {{- $id := .Get "id" -}}
 {{- $found := false -}}
 {{- range .Site.Data.picks.products -}}
