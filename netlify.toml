@@ -8,7 +8,7 @@
   HUGO_ENABLEGITINFO = "true"
 
 [context.production.environment]
-  HUGO_BASEURL = "https://gearvaultdeals.netlify.app/"
+  HUGO_BASEURL = "https://gearvaultdeals.com/"
 
 # Long-cache static assets, but always revalidate HTML
 [[headers]]
