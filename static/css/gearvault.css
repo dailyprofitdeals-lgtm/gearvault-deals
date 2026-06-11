@@ -1,4 +1,4 @@
-/* GEARVAULT-CSS-VERSION: PICKS-V4-COMPLETE - if you can read this in the live file, the correct CSS is deployed */
+/* GEARVAULT-CSS-VERSION: PICKS-V5-MOBILE - mobile nav fix applied */
 /* =====================================================================
    GearVault Deals — Editorial Theme v3
    Direction: editorial magazine. Asymmetric, typographic, lots of air.
@@ -911,9 +911,14 @@ body.list .main article { max-width: none !important; width: 100% !important; ma
 }
 
 @media (max-width: 640px) {
-  .gv-masthead-inner { padding: 0 18px; height: 64px; }
+  .gv-masthead-inner { padding: 0 14px; height: 64px; gap: 10px; }
   .gv-brand-tag { display: none; }
-  .gv-nav a:not(.gv-nav-cta) { padding: 8px 10px; font-size: .82rem; }
+  .gv-brand { gap: 9px; }
+  .gv-brand-name { font-size: 1.05rem; }
+  .gv-nav { gap: 2px; flex-shrink: 0; }
+  .gv-nav a { white-space: nowrap; }
+  .gv-nav a:not(.gv-nav-cta) { padding: 8px 7px; font-size: .8rem; }
+  .gv-nav-cta { padding: 8px 12px !important; font-size: .8rem; margin-left: 2px; }
   .gv-hero { min-height: 540px; }
   .gv-hero-inner { padding: 56px 22px; }
   .gv-trust { padding: 60px 22px; }
@@ -1221,4 +1226,14 @@ body.list .main article { max-width: none !important; width: 100% !important; ma
   .gv-compare-table td[data-label=""]::before { display: none; }
   .gv-compare-table td[data-label=""] { justify-content: stretch; }
   .gv-compare-btn { width: 100%; text-align: center; }
+}
+
+
+/* Extra-narrow phones — keep header on one line no matter what */
+@media (max-width: 380px) {
+  .gv-masthead-inner { padding: 0 10px; gap: 6px; }
+  .gv-brand-name { font-size: .95rem; }
+  .gv-brand-mark { width: 34px; height: 34px; font-size: 1rem; }
+  .gv-nav a:not(.gv-nav-cta) { padding: 6px 5px; font-size: .74rem; }
+  .gv-nav-cta { padding: 7px 9px !important; font-size: .74rem; }
 }
